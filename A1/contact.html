@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSC309 A1 - Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <body>
+    <div>
+      <header>
+        <ul id="nav">
+          <li><a href = "index.html">Home</a></li>
+          <li><a href = "about.html">About</a></li>
+          <li><a class="active" href = "contact.html">Contact</a></li>
+          </ul>
+      </header>
+      <main>
+        <div id="centre">
+          <img src="website_photo.jpg" alt="headshot">
+        <p id="name">Cole Richardson</p>
+        <a class="my_email" href="mailto:cole.richardson@mail.utoronto.ca?subject=Bug Found&body=I found the following bug on your website">
+          cole.richardson@mail.utoronto.ca
+        </a>        
+        <div class ="table">
+          <form>
+            <dl id="email">
+              <dt><label>Your Email:</label></dt>
+              <dd><input type="email" name="email" required></dd>
+            </dl>
+            <dl id="feedback">
+              <dt><label>Feedback:</label></dt>
+              <dd><textarea name="feedback" rows="4" cols="50" placeholder="Enter your feedback here" required></textarea></dd>
+            </dl>
+            <dl id="attachment">
+              <dt><label>Attachment:</label></dt>
+              <dd><input type="file" name="attachments" placeholder="Choose File" required></dd>
+            </dl>
+            <dl id="checkbox">
+              <dt><input type="checkbox" name="consent" id="check" required></dt>
+              <dd><label>You agree to receive emails from me</label></dd>
+            </dl>
+            <div class="submit">
+              <input type="submit" name="submit" value="Send Feedback">
+            </div>
+
+
+          </form>
+        </div>
+        </div>
+      </main>
+      <footer>
+        <p>Copyright 2023 by richa589.</p>
+      </footer>
+    
+    </div>
+  </body>
+</body>
+</html>
